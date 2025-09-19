@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily News Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Daily News Blog</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Politics</a>
+      <a href="#">Tech</a>
+      <a href="#">Sports</a>
+      <a href="#">World</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Breaking: Major News Headline Today</h1>
+  </section>
+
+  <main class="container" id="posts-container">
+    <!-- Posts will be loaded here dynamically -->
+  </main>
+
+  <div class="modal" id="newsModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalBody"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Daily News Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
