@@ -8,5 +8,9 @@
     "title": "Local News",
     "image": "https://picsum.photos/400/250?random=11",
     "source": "news-post.md"
-  }
+  },
+  {
+   "title": "Sports",
+  "image": "images/steve.jpg",
+  "source": "sports-post.md"
 ]
